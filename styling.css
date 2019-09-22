@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+}
+.Bill {
+    display: inline-block;
+}
+.total-field{
+    width: 205em;
+  }
+  

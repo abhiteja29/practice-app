@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styling.css">
+     
+</head> 
+<body>
+    
+    <br>
+    <h1 class="heading" style="color:black">Matire D</h1>
+    <form class="Bill">
+        <br>
+        Total:<input id="Total" type="text" name="Total">
+        <br>
+        <br>
+         Tip:<span id="Tip">$0.0</span>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Rate<input id="Rate" type="text" name="Rate" size=3>
+        <br>
+        <br>
+        Tax: $5.50  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br>
+        GrandTotal:<span id="GrandTotal" type="text" name="GrandTotal"></span>  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        <br>
+        <br>
+        <input type="button" style ="color:blue" value="Calculate" onclick="bill()"/>
+        </form>
+        <script src="bill.js"></script>
+</body>
+</html>
